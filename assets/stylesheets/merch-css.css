@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url(../images/merch/nipsey-hussle-1440x1024.jpg);
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.topnav a {
+  float: right;
+  color: 	#000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: blue;
+}
+
+.sidenav a {
+  padding: 30px 8px 18px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: blue;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 17px;}
+}
+
+<div class="sidenav">
+  <a href="#all items">ALL ITEMS</a>
+  <a href="#t-shirts">T-SHIRTS</a>
+  <a href="#jerseys">JERSEYS</a>
+  <a href="#bottoms">BOTTOMS</a>
+  <a href="#hats">HATS</a>
+  <a href="#accessories">ACCESSORIES</a>
+</div>
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+</div>
+
+</body>
+</html>
