@@ -1,13 +1,6 @@
 body {
   background-image: url("../images/discography/nipsey-hussle-discography.jpg");
   height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: url(../images/discography/nipsey-hussle-discography.jpg);
-  height: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
