@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 body {
   background-image: url("../images/discography/nipsey-hussle-discography.jpg");
-=======
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +7,6 @@ body, html {
 
 .hero-image {
   background-image: url(../images/discography/nipsey-hussle-discography.jpg);
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   height: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -23,7 +14,6 @@ body, html {
   position: relative;
 }
 
-<<<<<<< HEAD
 *{
   margin: 0px;
   padding: 0px;
@@ -248,37 +238,3 @@ table td {
   border-bottom: 1px solid #ACACAC;
   align: left;
 }
-=======
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-
-.topnav a {
-  float: right;
-  color: 	#000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  color: blue;
-}
-
-</style>
-</head>
-<body>
-
-<div class="hero-image">
-</div>
-
-</body>
-</html>
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b

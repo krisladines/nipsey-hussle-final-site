@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 body {
   background-image: url("../images/about/nipsey-hussle-1440x1024.jpg");
-=======
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -15,7 +10,6 @@ body, html {
 
 .hero-image {
   background-image: url(".assets/images/about/nipsey-hussle-1440x1024.jpg");
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   height: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -23,7 +17,6 @@ body, html {
   position: relative;
 }
 
-<<<<<<< HEAD
 *{
   margin: 0px;
   padding: 0px;
@@ -135,7 +128,7 @@ table td {
   font-weight: 500;
   font-size: 16px;
 }
-=======
+
 .topnav {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -158,20 +151,3 @@ table td {
 .topnav a.active {
   color: blue;
 }
-
-
-</style>
-</head>
-/* <body> */
-
-<div class="hero-image">
-</div>
-
-</body>
-</html>
-
-/* body{
-  background-image: url(../images/about/nipsey-hussle-1440x1024.jpg);
-
-} */
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
