@@ -1,21 +1,5 @@
-<<<<<<< HEAD
 body {
   background-image: url("../images/merch/nipsey-hussle-1440x1024.jpg");
-=======
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: url(../images/merch/nipsey-hussle-1440x1024.jpg);
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   height: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -23,7 +7,6 @@ body, html {
   position: relative;
 }
 
-<<<<<<< HEAD
 *{
   margin: 0px;
   padding: 0px;
@@ -72,33 +55,10 @@ a.logo {
 }
 
 .nav-links a:hover {
-=======
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-
-.topnav a {
-  float: right;
-  color: 	#000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   color: blue;
 }
 
 .sidenav a {
-<<<<<<< HEAD
   padding: 30px 8px 18px 60px;
   color: #000000;
   text-decoration: none;
@@ -106,12 +66,6 @@ a.logo {
   font-weight: bold;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-=======
-  padding: 30px 8px 18px 30px;
-  text-decoration: none;
-  font-size: 17px;
-  color: #000000;
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   display: block;
 }
 
@@ -132,18 +86,3 @@ a.logo {
   <a href="#hats">HATS</a>
   <a href="#accessories">ACCESSORIES</a>
 </div>
-
-<<<<<<< HEAD
-<div class="hero-image">
-</div>
-=======
-</style>
-</head>
-<body>
-
-<div class="hero-image">
-</div>
-
-</body>
-</html>
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
