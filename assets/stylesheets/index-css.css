@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
   margin: 0px;
   padding: 0px;
@@ -47,39 +46,6 @@ a.logo {
 }
 
 .nav-links a:hover {
-=======
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-
-.topnav a {
-  float: right;
-  color: 	#000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
   color: blue;
 }
 
@@ -105,21 +71,3 @@ body, html {
   min-width: 100%;
   min-height: 100%;
 }
-
-<<<<<<< HEAD
-=======
-}
-</style>
-</head>
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
-<body>
-
-<div class="bg-text">
-  <h1 style="font-size:300px">"THE HIGHEST HUMAN ACT IS TO INSPIRE"/h1>
-</div>
-
-</body>
-<<<<<<< HEAD
-=======
-</html>
->>>>>>> a467221f78316922c0dbe11014252e84b86be29b
