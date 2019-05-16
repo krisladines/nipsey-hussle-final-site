@@ -1,0 +1,89 @@
+body {
+  background-image: url("../images/tour-dates/nipsey-hussle-tour-dates.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff
+}
+
+element.style {
+}
+
+a.logo > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a.logo {
+    width: 80px;
+    float: left;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none
+}
+
+.nav-links a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 945px;
+  height: 550px;
+  margin: auto;
+  table-layout: fixed;
+  margin-top: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#000;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+td {
+  background: rgba(255, 255, 255, .8);
+}

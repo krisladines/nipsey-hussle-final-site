@@ -1,0 +1,120 @@
+body {
+  background-image: url("../images/about/nipsey-hussle-1440x1024.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff
+}
+
+element.style {
+}
+
+a.logo > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a.logo {
+    width: 80px;
+    float: left;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none
+}
+
+.nav-links a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, 10%);
+  width: 1000px;
+  padding: 20px;
+  display: flex;
+}
+
+.box .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.box .imgBx .img {
+  max-width: 100%;
+}
+
+.box .content {
+  padding-left: 115px;
+}
+
+.box .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: blue;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 44px;
+  letter-spacing: 3.22px;
+}
+
+.box .content p {
+  margin: 0;
+  padding: 10px 0 0;
+  columns: 120px 2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+table {
+  position: absolute;
+  top: 565px;
+  right: 235px;
+}
+
+table th {
+  text-align: left;
+  padding: 4px 30px 10px 8px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 21px;
+}
+
+table td {
+  padding: 8px 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}

@@ -1,0 +1,233 @@
+body {
+  background-image: url("../images/discography/nipsey-hussle-discography.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff
+}
+
+element.style {
+}
+
+a.logo > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a.logo {
+    width: 80px;
+    float: left;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none
+}
+
+.nav-links a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-40%, 10%);
+  width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, .8);
+  display: flex;
+}
+
+.box .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.box .imgBx .img {
+  max-width: 100%;
+}
+
+.box .content {
+  padding-left: 200px;
+}
+
+.box .content h6 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  letter-spacing: .5px;
+}
+
+.box .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  letter-spacing: 3.6px;
+}
+
+table {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+table td {
+  padding: 8px 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 1px solid #ACACAC;
+  align: left;
+}
+
+.box2 {
+  position: absolute;
+  top: 100%;
+  left: 47%;
+  transform: translate(-40%, 101%);
+  width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, .8);
+  display: flex;
+}
+
+.box2 .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.box2 .imgBx .img {
+  max-width: 100%;
+}
+
+.box2 .content2 {
+  padding-left: 200px;
+}
+
+.box2 .content2 h6 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  letter-spacing: .5px;
+}
+
+.box2 .content2 h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  letter-spacing: 3.6px;
+}
+
+table {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+table td {
+  padding: 8px 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 1px solid #ACACAC;
+  align: left;
+}
+
+.box3 {
+  position: absolute;
+  top: 100%;
+  left: 47%;
+  transform: translate(-40%, 201%);
+  width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, .8);
+  display: flex;
+}
+
+.box3 .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.box3 .imgBx .img {
+  max-width: 100%;
+}
+
+.box3 .content3 {
+  padding-left: 200px;
+}
+
+.box3 .content3 h6 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  letter-spacing: .5px;
+}
+
+.box3 .content3 h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  letter-spacing: 3.6px;
+}
+
+table {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+table td {
+  padding: 8px 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 1px solid #ACACAC;
+  align: left;
+}

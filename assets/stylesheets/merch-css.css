@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/merch/nipsey-hussle-1440x1024.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff
+}
+
+element.style {
+}
+
+a.logo > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a.logo {
+    width: 80px;
+    float: left;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none
+}
+
+.nav-links a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.sidenav a {
+  padding: 30px 8px 18px 60px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: blue;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 17px;}
+}
+
+<div class="sidenav">
+  <a href="#all items">ALL ITEMS</a>
+  <a href="#t-shirts">T-SHIRTS</a>
+  <a href="#jerseys">JERSEYS</a>
+  <a href="#bottoms">BOTTOMS</a>
+  <a href="#hats">HATS</a>
+  <a href="#accessories">ACCESSORIES</a>
+</div>
+
+<div class="hero-image">
+</div>

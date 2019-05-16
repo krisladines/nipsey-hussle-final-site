@@ -1,0 +1,59 @@
+body {
+  background-image: url("../images/media/nipsey-hussle-media.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff
+}
+
+element.style {
+}
+
+a.logo > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a.logo {
+    width: 80px;
+    float: left;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none
+}
+
+.nav-links a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: inline;
+}
