@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Media</title>
-  <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
-  <!-- <link rel="stylesheet" href="./assets/stylesheets/media-css.css" /> -->
+  <title>Image Gallery Design</title>
+  <!-- <link rel="stylesheet" href="./assets/stylesheets/styles.css" /> -->
+  <link rel="stylesheet" href="./assets/stylesheets/media-css.css" />
+  <link rel="stylesheet" href="./assets/stylesheets/lightbox.min.css" />
 </head>
 
 <body>
@@ -37,61 +38,29 @@
       </ul>
   </nav>
 
+  <div class="box">
+    <h1>Image Gallery Design</h1>
+    <div class="gallery">
+      <a href="./assets/images/media/photo-01-600x900.jpg" data-lightbox="mygallery" data-title="GQ Photoshoot"><img src="./assets/images/media/photo-01-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-02-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-02-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-03-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-03-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-04-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-04-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-05-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-05-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-06-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-06-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-07-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-07-225x300.jpg" /></a>
+      <a href="./assets/images/media/photo-08-600x900.jpg" data-lightbox="mygallery"><img src="./assets/images/media/photo-08-225x300.jpg" /></a>
+    </div>
 
-  <main>
-    <div class="container">
-      <h1>Photos</h1>
-      <div class="media-list">
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-01-225x300.jpg">
-            <img src="./assets/images/media/photo-01-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-02-225x300.jpg">
-            <img src="./assets/images/media/photo-02-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-03-225x300.jpg">
-            <img src="./assets/images/media/photo-03-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-04-225x300.jpg">
-            <img src="./assets/images/media/photo-04-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-05-225x300.jpg">
-            <img src="./assets/images/media/photo-05-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-06-225x300.jpg">
-            <img src="./assets/images/media/photo-06-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-07-225x300.jpg">
-            <img src="./assets/images/media/photo-07-225x300.jpg" />
-          </a>
-        </div>
-        <div class="media-card-wrapper">
-          <a class="media-card" href="./assets/images/media/photo-08-225x300.jpg">
-            <img src="./assets/images/media/photo-08-225x300.jpg" />
-          </a>
-        </div>
-      </div>
-      <h1>Videos</h1>
-      <div class="media-list">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/iYC9iMTC5QM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PAcGg_4KKYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_4LsQ_kdLh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QM9xgHibvzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <h1>Videos</h1>
+    <div class="media-list">
+      <iframe width="460" height="260" src="https://www.youtube.com/embed/iYC9iMTC5QM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="460" height="260" src="https://www.youtube.com/embed/PAcGg_4KKYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="460" height="260" src="https://www.youtube.com/embed/_4LsQ_kdLh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="460" height="260" src="https://www.youtube.com/embed/QM9xgHibvzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     </div>
-  </main>
+
+<script src="./assets/javascripts/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
