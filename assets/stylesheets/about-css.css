@@ -71,6 +71,9 @@ a.logo {
 .box .imgBx {
   width: 150px;
   flex: 0 0 150px;
+  position: relative;
+  top: 12px;
+  left: 40px;
 }
 
 .box .imgBx .img {

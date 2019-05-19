@@ -3,19 +3,23 @@
 <head>
   <title>Merch</title>
   <link rel="stylesheet" href="./assets/stylesheets/merch-css.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+</head>
+<title>Javascript Filtering</title>
+<link rel="stylesheet" href="./assets/stylesheets/merch-css.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
 </head>
 
 <body>
   <div class="hero-image">
     </div>
-</body>
 
-<nav>
-  <div class="logo">
-      <a href="/" class="logo">
-      <img src ="./assets/images/nipsey-hussle-logo.svg">
-      </a>
-  </div>
+  <nav>
+    <div class="logo">
+        <a href="/" class="logo">
+        <img src ="./assets/images/nipsey-hussle-logo.svg">
+        </a>
+    </div>
 
       <ul class="nav-links">
         <li>
@@ -34,18 +38,105 @@
       </ul>
   </nav>
 
-<!-- Side navigation -->
-  <div class="sidenav">
-    <a href="#all items">ALL ITEMS</a>
-    <a href="#t-shirts">T-SHIRTS</a>
-    <a href="#jerseys">JERSEYS</a>
-    <a href="#bottoms">BOTTOMS</a>
-    <a href="#hats">HATS</a>
-    <a href="#accessories">ACCESSORIES</a>
+  <!-- Control buttons -->
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('T-shirts')"> T-shirts</button>
+    <button class="btn" onclick="filterSelection('Sweatshirts')"> Sweatshirts</button>
+    <button class="btn" onclick="filterSelection('Bottoms')"> Bottmons</button>
+    <button class="btn" onclick="filterSelection('Hats')"> Hats</button>
   </div>
 
-<!-- Page content -->
-<div class="main">
-  </div>
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv T-shirts">
+      <img src="./assets/images/merch/shirt-01.png"/>
+      </div>
+    <div class="filterDiv T-shirts">
+      <img src="./assets/images/merch/shirt-02.png"/>
+    </div>
+    <div class="filterDiv T-shirts">
+      <img src="./assets/images/merch/shirt-03.png"/>
+    </div>
+    <div class="filterDiv T-shirts">
+      <img src="./assets/images/merch/shirt-04.png"/>
+    </div>
+    <div class="filterDiv Sweatshirts">
+      <img src="./assets/images/merch/sweatshirt-01.png"/>
+    </div>
+    <div class="filterDiv Sweatshirts">
+      <img src="./assets/images/merch/sweatshirt-02.png"/>
+    </div>
+    <div class="filterDiv Sweatshirts">
+      <img src="./assets/images/merch/sweatshirt-03.png"/>
+    </div>
+    <div class="filterDiv Sweatshirts">
+      <img src="./assets/images/merch/sweatshirt-04.png"/>
+    </div>
+    <div class="filterDiv Bottoms">
+      <img src="./assets/images/merch/shorts-01.png"/>
+    </div>
+    <div class="filterDiv Bottoms">
+      <img src="./assets/images/merch/shorts-02.png"/>
+    </div>
+    <div class="filterDiv Hats">
+      <img src="./assets/images/merch/hats-01.png"/>
+    </div>
+    <div class="filterDiv Hats">
+      <img src="./assets/images/merch/hats-02.png"/>
+    </div>
 
+
+
+<!-- https://www.w3schools.com/howto/howto_js_filter_elements.asp> Where Javascript goes after <div>. Must add <script> -->
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  // Show filtered elements
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+
+  // Hide elements that are not selected
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+  // Add active class to the current control button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+</script>
+</body>
 </html>

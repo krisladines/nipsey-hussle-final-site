@@ -28,6 +28,8 @@ a.logo > img {
     width: 100%;
     height: auto;
     display: block;
+    position: relative;
+    left: -100px;
 }
 
 a.logo {
@@ -58,31 +60,54 @@ a.logo {
   color: blue;
 }
 
-.sidenav a {
-  padding: 30px 8px 18px 60px;
-  color: #000000;
-  text-decoration: none;
-  letter-spacing: 1.4px;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+.container {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 42%;
+  transform: translate(-40%, 7%);
+  width: 1040px;
+  padding: 20px 0 50px;
+  background: rgba(255, 255, 255, .8);
+}
+
+img {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
-.sidenav a:hover {
-  color: blue;
+.filterDiv {
+  float: left;
+  color: #ffffff;
+  width: 250px;
+  line-height: 200px;
+  text-align: center;
+  margin: 5px;
+  display: none;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 17px;}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
 
-<div class="sidenav">
-  <a href="#all items">ALL ITEMS</a>
-  <a href="#t-shirts">T-SHIRTS</a>
-  <a href="#jerseys">JERSEYS</a>
-  <a href="#bottoms">BOTTOMS</a>
-  <a href="#hats">HATS</a>
-  <a href="#accessories">ACCESSORIES</a>
-</div>
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
