@@ -29,7 +29,7 @@ a.logo > img {
     height: auto;
     display: block;
     position: relative;
-    left: -100px;
+    left: -130px;
 }
 
 a.logo {
@@ -50,12 +50,19 @@ a.logo {
 .nav-links a{
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.5px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 140px;
 }
 
 .nav-links a:hover {
+  color: blue;
+}
+
+.nav-links a.active {
+  padding-top: 5px;
   color: blue;
 }
 
@@ -74,7 +81,7 @@ a.logo {
   flex: 0 0 150px;
   position: relative;
   top: 12px;
-  left: 40px;
+  left: 30px;
 }
 
 .box .imgBx .img {
@@ -99,14 +106,14 @@ a.logo {
   padding: 10px 0 0;
   columns: 120px 2;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 14.5px;
+  line-height: 2;
 }
 
 table {
   position: absolute;
   top: 565px;
-  right: 235px;
+  right: 233px;
 }
 
 table th {
@@ -118,7 +125,7 @@ table th {
 
 table td {
   padding: 8px 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
 }

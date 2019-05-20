@@ -29,7 +29,7 @@ a.logo > img {
     height: auto;
     display: block;
     position: relative;
-    left: -100px;
+    left: -130px;
 }
 
 a.logo {
@@ -50,12 +50,19 @@ a.logo {
 .nav-links a{
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.5px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 140px;
 }
 
 .nav-links a:hover {
+  color: blue;
+}
+
+.nav-links a.active {
+  padding-top: 5px;
   color: blue;
 }
 
@@ -80,6 +87,8 @@ tr:hover {background-color:#000;}
 th {
   padding-top: 12px;
   padding-bottom: 12px;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 1.5px;
   text-align: left;
   background-color: #000;
   color: white;
@@ -89,19 +98,17 @@ td {
   background: rgba(255, 255, 255, .8);
 }
 
-.btn{
+.button {
+  background-color: #0352FB;
   border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #fff;
-  cursor: pointer
-}
-
-.btn:hover{
-  background-color: #ddd;
-}
-
-.btn:active{
-  background-color: #666;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
   color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0px;
 }

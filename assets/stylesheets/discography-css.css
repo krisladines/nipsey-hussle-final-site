@@ -29,7 +29,7 @@ a.logo > img {
     height: auto;
     display: block;
     position: relative;
-    left: -100px;
+    left: -130px;
 }
 
 a.logo {
@@ -50,13 +50,19 @@ a.logo {
 .nav-links a{
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1.4px;
-  font-weight: bold;
+  letter-spacing: 1.5px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 140px;
 }
 
 .nav-links a:hover {
+  color: blue;
+}
+
+.nav-links a.active {
+  padding-top: 5px;
   color: blue;
 }
 

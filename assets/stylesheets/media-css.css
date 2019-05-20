@@ -47,7 +47,6 @@ h1{
   padding: 3px;
 }
 
-
 *{
   margin: 0px;
   padding: 0px;
@@ -70,7 +69,7 @@ a.logo > img {
     height: auto;
     display: block;
     position: relative;
-    left: -100px;
+    left: -130px;
 }
 
 a.logo {
@@ -91,38 +90,22 @@ a.logo {
 .nav-links a{
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.5px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 140px;
 }
 
 .nav-links a:hover {
   color: blue;
 }
 
+.nav-links a.active {
+  padding-top: 5px;
+  color: blue;
+}
+
 .container {
   display: inline;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-
-.topnav a {
-  float: right;
-  color: 	#000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  color: blue;
 }

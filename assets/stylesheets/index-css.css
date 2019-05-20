@@ -41,31 +41,36 @@ a.logo {
 .nav-links a{
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1.4px;
-  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-weight: normal;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   position: relative;
   left: 140px;
-
 }
 
 .nav-links a:hover {
   color: blue;
 }
 
+.nav-links a.active {
+  padding-top: 5px;
+  color: blue;
+}
+
 h1 {
   font-family: 'Pirata One', cursive;
-  color: #ffffff;
+  font-weight: lighter;
+  color: white;
   position: absolute;
-  top: 40%;
+  top: 35%;
   bottom: 50%;
   left: 40%;
   right: 0;
   margin: auto;
   text-align: left;
-  font-size: 60px;
-  letter-spacing: 3px;
+  font-size: 65px;
+  letter-spacing: 1px;
 }
 .wrapper {
   position: absolute;
@@ -75,7 +80,6 @@ h1 {
   right: 0;
   background: rgba(0,0,0, 0);
 }
-
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
