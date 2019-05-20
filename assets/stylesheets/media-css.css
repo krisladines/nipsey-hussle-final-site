@@ -69,6 +69,8 @@ a.logo > img {
     width: 100%;
     height: auto;
     display: block;
+    position: relative;
+    left: -100px;
 }
 
 a.logo {
@@ -93,6 +95,10 @@ a.logo {
   font-weight: bold;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+  color: blue;
 }
 
 .container {
