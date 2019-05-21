@@ -55,16 +55,23 @@ a.logo {
   font-family: 'Roboto', sans-serif;
   position: relative;
   left: 140px;
+  padding: 10px 10px;
 }
 
 .nav-links a:hover {
-  color: blue;
+  background: blue;
+  color: white;
+  border-bottom: 1px solid black;
+  transition: .5s;
 }
 
 .nav-links a.active {
-  padding-top: 5px;
   color: blue;
+  border-bottom: 1px solid blue;
+  font-weight: bold;
 }
+
+
 
 .box {
   position: absolute;

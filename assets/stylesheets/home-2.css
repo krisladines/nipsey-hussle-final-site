@@ -71,6 +71,20 @@ a.logo {
   transition: .4s;
 }
 
+.msg{
+  position: relative;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  font-weight: lighter;
+  color: #fff;
+  top: 200px;
+}
+
+.msg h1{
+  font-size: 65px;
+  margin: 25px;
+}
+
 /* h1 {
   font-family: 'Pirata One', cursive;
   font-weight: lighter;
