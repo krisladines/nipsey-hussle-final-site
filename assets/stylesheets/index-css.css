@@ -5,7 +5,7 @@
 }
 
 .video-background{
-  position: bottom;
+  position: relative;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -81,6 +81,24 @@ li a{
   transition: width .3s;
 }
 
+.msg{
+  color: white;
+  position: absolute;
+  top: 33%;
+  bottom: 50%;
+  left: 38%;
+  right: 0;
+  margin: auto;
+  text-align: left;
+}
+
+.msg h1 {
+  font-family: 'Pirata One', cursive;
+  font-weight: lighter;
+  font-size: 65px;
+  letter-spacing: 1px;
+  margin: 25px;
+}
 /* h1 {
   font-family: 'Pirata One', cursive;
   font-weight: lighter;
