@@ -43,13 +43,15 @@ a.logo {
   width: 40%;
 }
 
-.nav-links li{
-  list-style: none
+li{
+  list-style: none;
+  display: inline-block;
 }
 
-.nav-links a{
+li a{
   color: #000000;
   text-decoration: none;
+  display: inline-block;
   letter-spacing: 1.5px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -58,20 +60,24 @@ a.logo {
   padding: 10px 10px;
 }
 
-.nav-links a:hover {
-  background: blue;
-  color: white;
-  border-bottom: 1px solid black;
-  transition: .5s;
-}
-
 .nav-links a.active {
   color: blue;
-  border-bottom: 1px solid blue;
   font-weight: bold;
 }
 
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
 
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
 
 .box {
   position: absolute;

@@ -60,10 +60,6 @@ li a{
   padding: 10px 10px;
 }
 
-/* .nav-links a:hover {
-  color: blue;
-} */
-
 .nav-links a.active {
   color: blue;
   font-weight: bold;
