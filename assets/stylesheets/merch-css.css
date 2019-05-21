@@ -90,6 +90,11 @@ li a{
   background: rgba(255, 255, 255, .8);
 }
 
+#myBtnContainer {
+  padding-top: 50px;
+  text-align: center;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -98,7 +103,7 @@ img {
 
 .filterDiv {
   float: left;
-  color: #ffffff;
+  /* color: #ffffff; */
   width: 250px;
   line-height: 200px;
   text-align: center;
@@ -113,25 +118,28 @@ img {
 
 /* Style the buttons */
 .btn {
-  border: none;
-  outline: none;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  list-style: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
   cursor: pointer;
+  -webkit-transtion: all .5s ease;
+  -moz-transition: all .5s ease ;
+  -ms-transition: all .5s ease ;
+  -o-transition: all .5s ease ;
+  transition: all .5s ease ;
 }
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background: blue;
+  color: #fff;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
-  color: white;
-}
-
-#myBtnContainer {
-  padding-top: 50px;
-  text-align: center;
+  background: blue;
+  color: #fff;
 }
